@@ -35,7 +35,7 @@ enum Target {
     END
 };
 
-struct Home {
+struct Home {           //colony base
     Vector2f position;
     CircleShape shape;
     int storedFood;
@@ -72,7 +72,7 @@ public:
     float speed;                    //pixel per frame
     float turningSpeed;             //degrees per frame
     float scale;
-    int timeOfLastDrop;
+    //int timeOfLastDrop;           //not used yet
     int carringFood;
 
     Ant() {
@@ -82,7 +82,6 @@ public:
         scale = .1;
         speed = 4;
         turningSpeed = 5;
-        timeOfLastDrop = frame;
         carringFood = 0;
     }
 

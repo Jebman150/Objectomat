@@ -35,7 +35,7 @@ float vectorToAngle(sf::Vector2f vec) {
     return angle;
 }
 
-float angleBetweenVectors(Vector2f a, Vector2f b) {
+float angleBetweenVectors(Vector2f a, Vector2f b) {         //gives the angle between two vectors as value between 0 and 360
     Vector2f ortA = Vector2f(a.y, -a.x);
     float angle;
     float ortAngle;
@@ -59,7 +59,7 @@ float angleBetweenVectors(Vector2f a, Vector2f b) {
     return angle;
 }
 
-float angleBetweenVectors_signed(Vector2f a, Vector2f b) {
+float angleBetweenVectors_signed(Vector2f a, Vector2f b) {  //gives the angle between two vectors as value between -180 and 180
     Vector2f ortA = Vector2f(a.y, -a.x);
     float angle;
     float ortAngle;

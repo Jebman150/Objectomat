@@ -50,7 +50,7 @@ Vertex pheromoneLine[] = {
 };
 
 int main() {
-    /////////////////test space
+    //// Test space ///////
 
     /*{
         Vector2f a = Vector2f(2.12, -3.39);
@@ -61,7 +61,7 @@ int main() {
         return EXIT_SUCCESS;
     }*/
 
-    /////////////////
+    ///////////////////////
     RenderWindow window(VideoMode(WINDOW_SIZE_X, WINDOW_SIZE_Y), "Ant Simulation"); 
     antTexture.loadFromFile("D:\\antSim\\textures\\ant.jpg");
     pheromone.resize(maxBlobNum);
@@ -86,7 +86,7 @@ int main() {
                     break;
             }
         }
-        //////////////////////////
+        //////////// Update //////////////
         window.clear(Color(100, 50, 0));
         if(blobNum >= pheromone.size()-ANT_AMOUNT) {
             maxBlobNum += ANT_AMOUNT;
@@ -146,7 +146,7 @@ int main() {
         directionLine[2].color = Color::Red;
         directionLine[3].color = Color::Red;
 
-        ///////////////////////
+        /////////// Draw visuals ////////////
         info.setString("Frame: " + to_string(frame));
         window.draw(info);
         for(auto &&oneAnt : ant) {
@@ -166,6 +166,8 @@ int main() {
     }
     return EXIT_SUCCESS;
 }
+
+///////////// Methods ///////////////
 
 void setup() {
     frame = 0;
@@ -200,6 +202,7 @@ void setup() {
     info.setPosition(WINDOW_SIZE_X/100, WINDOW_SIZE_Y/100);
     info.setCharacterSize(16);
 }
+
 
 void updateShape(Ant &currentAnt) {
     currentAnt.body.setPosition(currentAnt.position);
@@ -271,7 +274,7 @@ void updateBlob(int i) {
     pheromone[i].shape.setRadius(pheromone[i].size);
 }
 
-float checkForPheromone(Ant &ant) {
+float checkForPheromone(Ant &ant) {     //it checks for the nearest pheromone in the FOV of the given ant
     int range = 50;
     float targetAngle = 0;
     float blobAmountInRange = 1;
@@ -279,20 +282,16 @@ float checkForPheromone(Ant &ant) {
         if(dist(blob.position, ant.position) < range && blob.type == ant.currentTarget && dist(blob.position, ant.position) > .5) {
             float angleToBlob;
             float distance = dist(blob.position, ant.position);
-            //cout << "X " << blob.position.x - ant.position.x << " Y " << blob.position.y - ant.position.y << "  x " << angleToVector(ant.pointingDirection).x << " y " << angleToVector(ant.pointingDirection).y << endl;
             angleToBlob = angleBetweenVectors_signed(blob.position - ant.position, angleToVector(ant.pointingDirection));
 
             if(targetAngle > -50 && targetAngle < 50) {
                 pheromoneLine[0] = Vertex(ant.position);
                 pheromoneLine[1] = Vertex(blob.position);
-                //printf("Values: Dist(%f), angle(%f)\n", distance, angleToBlob);
-                //cout << "Result: " << angleToBlob << endl;
-                targetAngle += angleToBlob;//clamp(ant.turningSpeed, -ant.turningSpeed, angleToBlob); //* blob.size;
+                targetAngle += angleToBlob;
                 blobAmountInRange += blob.size;
             }
         }
     }
-    //printf("###Angle: %f\n", targetAngle);
     
     return -targetAngle;
 }
