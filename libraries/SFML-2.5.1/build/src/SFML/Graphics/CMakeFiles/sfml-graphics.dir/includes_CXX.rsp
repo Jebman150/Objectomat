@@ -1,0 +1,1 @@
+-IF:/simAll/SimClient/SFML-2.5.1/include -IF:/simAll/SimClient/SFML-2.5.1/src -IF:/simAll/SimClient/SFML-2.5.1/extlibs/headers/stb_image -IF:/simAll/SimClient/SFML-2.5.1/extlibs/headers/freetype2

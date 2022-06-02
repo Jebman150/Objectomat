@@ -1,0 +1,19 @@
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: F:/simAll/SimClient/SFML-2.5.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_bb218/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bb218.dir\build.make CMakeFiles/cmTC_bb218.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/simAll/SimClient/SFML-2.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb218.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_bb218.dir\CheckIncludeFile.c.obj -c F:\simAll\SimClient\SFML-2.5.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+F:\simAll\SimClient\SFML-2.5.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_bb218.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_bb218.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_bb218.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'F:/simAll/SimClient/SFML-2.5.1/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bb218/fast' failed
+mingw32-make.exe: *** [cmTC_bb218/fast] Error 2
+
+
+
