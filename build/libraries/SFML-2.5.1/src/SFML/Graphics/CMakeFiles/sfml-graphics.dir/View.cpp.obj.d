@@ -1,11 +1,11 @@
 libraries/SFML-2.5.1/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Graphics\View.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/View.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Graphics\View.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/View.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
  C:/msys64/mingw64/include/c++/12.1.0/algorithm \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -55,8 +55,8 @@ libraries/SFML-2.5.1/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj
  C:/msys64/mingw64/include/c++/12.1.0/bits/std_abs.h \
  C:/msys64/mingw64/include/c++/12.1.0/pstl/glue_algorithm_defs.h \
  C:/msys64/mingw64/include/c++/12.1.0/pstl/execution_defs.h \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/cmath \
  C:/msys64/mingw64/include/math.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/specfun.h \

@@ -1,13 +1,13 @@
 libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Window\Win32\CursorImpl.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Window\Win32\CursorImpl.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -224,7 +224,7 @@ libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
  C:/msys64/mingw64/include/imm.h \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/ostream \
  C:/msys64/mingw64/include/c++/12.1.0/ios \
  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \

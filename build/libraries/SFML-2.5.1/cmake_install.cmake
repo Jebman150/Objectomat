@@ -1,8 +1,8 @@
-# Install script for directory: D:/qwer/antSimulation/libraries/SFML-2.5.1
+# Install script for directory: D:/qwer/objectomat/libraries/SFML-2.5.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/antSimulation")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/objectomat")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,30 +38,30 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "D:/qwer/objectomat/libraries/SFML-2.5.1/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/qwer/antSimulation/libraries/SFML-2.5.1/license.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/qwer/objectomat/libraries/SFML-2.5.1/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/qwer/antSimulation/libraries/SFML-2.5.1/readme.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "D:/qwer/objectomat/libraries/SFML-2.5.1/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/bin/x64/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/bin/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake"
-         "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+         "D:/qwer/objectomat/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -70,23 +70,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/qwer/objectomat/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "D:/qwer/objectomat/build/libraries/SFML-2.5.1/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-noconfig.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/SFMLConfig.cmake"
-    "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/SFMLConfigDependencies.cmake"
-    "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/SFMLConfigVersion.cmake"
+    "D:/qwer/objectomat/build/libraries/SFML-2.5.1/SFMLConfig.cmake"
+    "D:/qwer/objectomat/build/libraries/SFML-2.5.1/SFMLConfigDependencies.cmake"
+    "D:/qwer/objectomat/build/libraries/SFML-2.5.1/SFMLConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/cmake_install.cmake")
 
 endif()
 

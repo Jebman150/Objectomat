@@ -1,9 +1,9 @@
 libraries/SFML-2.5.1/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Audio\SoundFileWriterWav.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterWav.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Audio/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Audio\SoundFileWriterWav.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterWav.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Audio/SoundFileWriter.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Audio/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/string \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -138,8 +138,8 @@ libraries/SFML-2.5.1/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/fstream.tcc \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/algorithm \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algo.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/algorithmfwd.h \

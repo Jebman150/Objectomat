@@ -1,8 +1,8 @@
-# Install script for directory: D:/qwer/antSimulation/src
+# Install script for directory: D:/qwer/objectomat/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/antSimulation")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/objectomat")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

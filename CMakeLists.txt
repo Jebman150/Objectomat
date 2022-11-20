@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION "3.20.0")
-project(antSimulation)
+project(objectomat)
 set(SFML_USE_STATIC_STD_LIBS TRUE)
 set(BUILD_SHARED_LIBS FALSE)
 add_subdirectory(src)

@@ -1,8 +1,8 @@
-# Install script for directory: D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML
+# Install script for directory: D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/antSimulation")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/objectomat")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System/cmake_install.cmake")
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Main/cmake_install.cmake")
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window/cmake_install.cmake")
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network/cmake_install.cmake")
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics/cmake_install.cmake")
-  include("D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Main/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics/cmake_install.cmake")
+  include("D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

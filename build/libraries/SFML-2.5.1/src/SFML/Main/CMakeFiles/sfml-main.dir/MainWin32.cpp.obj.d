@@ -1,6 +1,6 @@
 libraries/SFML-2.5.1/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Main\MainWin32.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Main\MainWin32.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

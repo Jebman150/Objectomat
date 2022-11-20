@@ -1,1 +1,1 @@
--I"D:/qwer/antSimulation/libraries/SFML-2.5.1/include" -I"D:/qwer/antSimulation/libraries/SFML-2.5.1/src" -I"D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers/stb_image" -I"D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers/freetype2"
+-I"D:/qwer/objectomat/libraries/SFML-2.5.1/include" -I"D:/qwer/objectomat/libraries/SFML-2.5.1/src" -I"D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers/stb_image" -I"D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers/freetype2"

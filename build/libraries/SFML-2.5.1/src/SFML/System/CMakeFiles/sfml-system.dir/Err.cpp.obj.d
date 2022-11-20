@@ -1,8 +1,8 @@
 libraries/SFML-2.5.1/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\System\Err.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\System\Err.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Err.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/ostream \
  C:/msys64/mingw64/include/c++/12.1.0/ios \
  C:/msys64/mingw64/include/c++/12.1.0/iosfwd \

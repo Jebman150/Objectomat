@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\qwer\antSimulation
+CMAKE_SOURCE_DIR = D:\qwer\objectomat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\qwer\antSimulation\build
+CMAKE_BINARY_DIR = D:\qwer\objectomat\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\qwer\antSimulation\build\CMakeFiles D:\qwer\antSimulation\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\qwer\objectomat\build\CMakeFiles D:\qwer\objectomat\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\qwer\antSimulation\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\qwer\objectomat\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,17 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named antSim
+# Target rules for targets named objectomat
 
 # Build rule for target.
-antSim: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 antSim
-.PHONY : antSim
+objectomat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 objectomat
+.PHONY : objectomat
 
 # fast build rule for target.
-antSim/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\antSim.dir\build.make src/CMakeFiles/antSim.dir/build
-.PHONY : antSim/fast
+objectomat/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\objectomat.dir\build.make src/CMakeFiles/objectomat.dir/build
+.PHONY : objectomat/fast
 
 #=============================================================================
 # Target rules for targets named sfml-system
@@ -263,7 +263,7 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... antSim
+	@echo ... objectomat
 	@echo ... sfml-audio
 	@echo ... sfml-graphics
 	@echo ... sfml-main

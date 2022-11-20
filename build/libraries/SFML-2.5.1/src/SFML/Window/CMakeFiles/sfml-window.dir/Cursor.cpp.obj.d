@@ -1,14 +1,14 @@
 libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Window\Cursor.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/CursorImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Window\Cursor.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Vector2.inl \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/CursorImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.hpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

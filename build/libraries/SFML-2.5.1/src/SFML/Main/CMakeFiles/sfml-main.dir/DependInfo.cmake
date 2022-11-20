@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Main/MainWin32.cpp" "libraries/SFML-2.5.1/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj" "gcc" "libraries/SFML-2.5.1/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj.d"
+  "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Main/MainWin32.cpp" "libraries/SFML-2.5.1/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj" "gcc" "libraries/SFML-2.5.1/src/SFML/Main/CMakeFiles/sfml-main.dir/MainWin32.cpp.obj.d"
   )
 
 # Targets to which this target links.

@@ -1,318 +1,223 @@
-#include <SFML/Graphics.hpp>
-#include <SFML/System/Vector2.hpp>
-#include "ant.h"
-#include "actions.h"
-#include <thread>
-#include <iostream>
-#include <stdlib.h>
-#include <stdio.h>
-#include <stdint.h>
-#include <array>
-#include <math.h>
-
-#define WINDOW_SIZE_X 1920
-#define WINDOW_SIZE_Y 1080
-#define ANT_AMOUNT 20
-#define DROP_INTERVAL 5
+#include "bodyPresets.h"    // -> mesh.h   meshVertex.h     transform.h     triangle.h      common.h
 
 using namespace std;
-using namespace sf;
 
-void setup();
-void updateShape(Ant &currentAnt);
-void startBlobThread(int threadNum);
-void chooseAction(Ant &currentAnt, RenderWindow &window);
-void updateBlob(int i);
-float checkForPheromone(Ant &ant);
-void manageFood(Ant &currentAnt);
-float angleBetweenVectors(Vector2f a, Vector2f b);
-float dist(Vector2f a, Vector2f b);
+void updateRotationTable(sf::Vector2i mouseMovement, std::vector<sf::Vector3f> &rotor);
 
-int frame;
+sf::RenderWindow window(sf::VideoMode(WINDOW_SIZE, WINDOW_SIZE), "Objectomat");
+sf::Font font;
 
-int blobNum = 0;
-int maxBlobNum = ANT_AMOUNT * 5;
+Mesh surfaceMesh;
+Cube cube;
+Cube test;
 
-bool deleteBlobs = false;
+sf::Vector2i lastMousePos;
+sf::Vector2i mouseMovement;
 
-Ant ant[ANT_AMOUNT];
-Home colonyBase;
-FoodSpot foodSpot[3];
-Texture antTexture;
-std::vector<PheromoneBlob> pheromone;
-Font font;
-Text info;
-array<thread, 4> worker;
+int focalLength = 128;
+int bodyAmount = 5;
+double sizeMultiplier = 10;
+int selectedBody = 0;
+float yaw = 0;       //Z-Axis
+float pitch = .01;     //Y-Axis
+float roll = 0;      //X-Axis
 
-Vertex pheromoneLine[] = {
-    Vertex(ant[0].position),
-    Vertex(ant[0].position)
+bool spacebarPressed = false;
+bool enterPressed = false;
+
+int rotatingObject;
+const int objectNum = 3;
+
+bool hasFocus = true;
+
+sf::Vector3f lightSource = {
+    1000, -1000, 1000
 };
+std::vector<sf::Vector3f> bodyRotationTable = {
+    {std::cos(pitch) * std::cos(yaw), std::cos(yaw) * std::sin(pitch) * std::sin(roll) - std::cos(roll) * std::sin(yaw), std::cos(yaw) * std::sin(pitch) * std::cos(roll) + std::sin(yaw) * std::sin(roll)},
+    {std::cos(pitch) * std::sin(yaw), std::sin(yaw) * std::sin(pitch) * std::sin(roll) + std::cos(roll) * std::cos(yaw), std::sin(yaw) * std::sin(pitch) * std::cos(roll) - std::cos(yaw) * std::sin(roll)},
+    {         -std::sin(pitch)      ,                            std::sin(roll) * std::cos(pitch)                      ,                              std::cos(roll) * std::cos(pitch)                    }
+};  //rotates around transform
+
+std::vector<sf::Vector3f> camRotationTable = {
+    {std::cos(pitch) * std::cos(yaw), std::cos(yaw) * std::sin(pitch) * std::sin(roll) - std::cos(roll) * std::sin(yaw), std::cos(yaw) * std::sin(pitch) * std::cos(roll) + std::sin(yaw) * std::sin(roll)},
+    {std::cos(pitch) * std::sin(yaw), std::sin(yaw) * std::sin(pitch) * std::sin(roll) + std::cos(roll) * std::cos(yaw), std::sin(yaw) * std::sin(pitch) * std::cos(roll) - std::cos(yaw) * std::sin(roll)},
+    {         -std::sin(pitch)      ,                            std::sin(roll) * std::cos(pitch)                      ,                              std::cos(roll) * std::cos(pitch)                    }
+};  //rotates transform around center
 
 int main() {
-    //// Test space ///////
+    surfaceMesh = Mesh({0, 100, 0},
+                    {3, 3, 3},
+                    {
+                        {-100, 0, -100},
+                        { 100, 0, -100},
+                        { 100, 0,  100},
+                        {-100, 0,  100}
+                    },
+                    sf::Color(150, 150, 150));
 
-    /*{
-        Vector2f a = Vector2f(2.12, -3.39);
-        Vector2f b = Vector2f(-0.534, 0.84);
-        cout << "Input a: (" << a.x << "|" << a.y << ")" << endl;
-        cout << "Input b: (" << b.x << "|" << b.y << ")" << endl;
-        cout << "Result: " << angleBetweenVectors_signed(a, b) << endl;
-        return EXIT_SUCCESS;
-    }*/
+    test = Cube({100, 100, 0}, {1, 2, 1});
 
-    ///////////////////////
-    RenderWindow window(VideoMode(WINDOW_SIZE_X, WINDOW_SIZE_Y), "Ant Simulation"); 
-    antTexture.loadFromFile("D:\\antSim\\textures\\ant.jpg");
-    pheromone.resize(maxBlobNum);
-    pheromone[ANT_AMOUNT-1].size = .1;
-    setup();
+    //cube = Cube({0, 0, 0}, {1, 1, 1}, sf::Color::Red);
+
+    //if(read_ShapeFile_Content() == EXIT_FAILURE) {
+    //    cout << "Failed reading from shapeFile!" << endl;
+    //    return EXIT_SUCCESS;
+    //}
+    
     if(!font.loadFromFile("Cabin-Regular.ttf")) {
         cout << "Exiting..." << endl;
         return EXIT_FAILURE;
     }
+
     window.setFramerateLimit(60);
 
     while(window.isOpen()) {
-        Event event;
-        int someTimer = 0;
+        bool rotateCam;
+
+        sf::Event event;
         while(window.pollEvent(event)) {
             switch(event.type) {
-                case Event::Closed:
+                case sf::Event::Closed:
                     window.close();
                     break;
-                case Event::Resized:
-                    window.setSize(Vector2u(WINDOW_SIZE_X, WINDOW_SIZE_Y));   //lock the size of the window
+                case sf::Event::Resized:
+                    window.setSize(sf::Vector2u(WINDOW_SIZE, WINDOW_SIZE));   //lock the size of the window
+                    break;
+                case sf::Event::LostFocus:
+                    hasFocus = false;
+                    break;
+                case sf::Event::GainedFocus:
+                    hasFocus = true;
                     break;
             }
         }
+
+        if(!hasFocus) continue;
+
+        ///////////User Input/////////////
+        
+        if(sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
+            mouseMovement = sf::Mouse::getPosition(window) - lastMousePos;
+            lastMousePos = sf::Mouse::getPosition(window);
+            if(mouseMovement.x != 0 || mouseMovement.y != 0) {
+                updateRotationTable(mouseMovement, bodyRotationTable);
+            } else {
+                bodyRotationTable = {
+                    {1, 0, 0},
+                    {0, 1, 0},
+                    {0, 0, 1}
+                };
+            }
+            rotateCam = false;
+        } else if(sf::Mouse::isButtonPressed(sf::Mouse::Right)) {
+            mouseMovement = sf::Mouse::getPosition(window) - lastMousePos;
+            lastMousePos = sf::Mouse::getPosition(window);
+            if(mouseMovement.x != 0 || mouseMovement.y != 0) {
+                updateRotationTable(mouseMovement, camRotationTable);
+            } else {
+                camRotationTable = {
+                    {1, 0, 0},
+                    {0, 1, 0},
+                    {0, 0, 1}
+                };
+            }
+            rotateCam = true;
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space) && !spacebarPressed) {
+            if(selectedBody == 4) selectedBody = 0;
+            else selectedBody++;
+            //read_ShapeFile_Content();
+            spacebarPressed = true;
+        } else if(!sf::Keyboard::isKeyPressed(sf::Keyboard::Space) && spacebarPressed) {
+            spacebarPressed = false;
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Enter) && !enterPressed) {
+            rotatingObject++;
+            if(rotatingObject > objectNum) {
+                rotatingObject = 0;
+            }
+            enterPressed = true;
+        } else if(!sf::Keyboard::isKeyPressed(sf::Keyboard::Enter) && enterPressed) {
+            enterPressed = false;
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::PageUp)) {
+            sizeMultiplier += (float)(64.f/focalLength);
+        } else if(sf::Keyboard::isKeyPressed(sf::Keyboard::PageDown)) {
+            sizeMultiplier -= (float)(64.f/focalLength);
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up) && focalLength - 1 != 0) {
+            focalLength -= 1;
+        } else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+            focalLength += 1;
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
+            rotateCam = true;
+            updateRotationTable({0, 1}, camRotationTable);
+        } else if(sf::Keyboard::isKeyPressed(sf::Keyboard::S)) {
+            rotateCam = true;
+            updateRotationTable({0, -1}, camRotationTable);
+        }
+
+        if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
+            rotateCam = true;
+            updateRotationTable({1, 0}, camRotationTable);
+        } else if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
+            rotateCam = true;
+            updateRotationTable({-1, 0}, camRotationTable);
+        }
+
+        if( !sf::Keyboard::isKeyPressed(sf::Keyboard::W) && 
+            !sf::Keyboard::isKeyPressed(sf::Keyboard::S) && 
+            !sf::Keyboard::isKeyPressed(sf::Keyboard::A) && 
+            !sf::Keyboard::isKeyPressed(sf::Keyboard::D) &&
+            !sf::Mouse::isButtonPressed(sf::Mouse::Right))
+        {
+            rotateCam = false;
+        }
+
         //////////// Update //////////////
-        window.clear(Color(100, 50, 0));
-        if(blobNum >= pheromone.size()-ANT_AMOUNT) {
-            maxBlobNum += ANT_AMOUNT;
-            pheromone.resize(maxBlobNum);
-            //cout << "Resizing: " << blobNum << endl;
+        window.clear(sf::Color(0, 0, 0));
+
+        switch(rotatingObject) {
+            case 0:
+                cube.calculateMesh(rotateCam, true);
+                test.calculateMesh(rotateCam, false);
+                break;
+            case 1:
+                test.calculateMesh(rotateCam, true);
+                cube.calculateMesh(rotateCam, false);
+                break;
+            case (objectNum-1):
+                surfaceMesh.rotateMesh_transform();
+                cube.calculateMesh(rotateCam, false);
+                test.calculateMesh(rotateCam, false);
+                break;
+            default:
+                rotatingObject = 0;
         }
 
-        if(frame >= 1500 && frame % DROP_INTERVAL == 0) {
-            for(int i = ANT_AMOUNT; i < blobNum; i++) {
-                pheromone[i-ANT_AMOUNT] = pheromone[i];
-            }
-            //cout << "Deleting blobs 0 - " << ANT_AMOUNT << endl;
-            blobNum -= ANT_AMOUNT;
+        if(rotateCam) {
+            surfaceMesh.rotateTransform_center();
         }
 
-        for (int j = 0; j < blobNum; j++) {
-            if(pheromone[j].size <= 0) {
-                for(int i = j; i < blobNum-1; i++) {
-                    pheromone[i] = pheromone[i+1];
-                }
-                blobNum--;
-            }
-        }
-
-        for(auto &oneAnt : ant) {
-            chooseAction(oneAnt, window);
-            manageFood(oneAnt);
-            updateShape(oneAnt);
-        }
-
-        if(frame % DROP_INTERVAL == 0) {
-            worker[0] = thread([] {startBlobThread(1);});
-            worker[1] = thread([] {startBlobThread(2);});
-            worker[2] = thread([] {startBlobThread(3);});
-            worker[3] = thread([] {startBlobThread(4);});
-            
-            worker[0].join();
-            worker[1].join();
-            worker[2].join();
-            worker[3].join();
-            blobNum += ANT_AMOUNT;
-        }
-
-        for(int i = 0; i < blobNum; i++) {
-            updateBlob(i);
-        }
-
-        Vertex directionLine[] = {
-            Vertex(ant[0].position),
-            Vertex(ant[0].position + angleToVector(ant[0].pointingDirection) * 100.f),
-            Vertex(ant[0].position),
-            Vertex(ant[0].position + angleToVector(vectorToAngle(Vector2f(Mouse::getPosition(window)) - ant[0].position)) * 100.f)
-        };
-
-        directionLine[0].color = Color::Blue;
-        directionLine[1].color = Color::Blue;
-        directionLine[2].color = Color::Red;
-        directionLine[3].color = Color::Red;
-
-        /////////// Draw visuals ////////////
-        info.setString("Frame: " + to_string(frame));
-        window.draw(info);
-        for(auto &&oneAnt : ant) {
-            window.draw(oneAnt.body);
-        }
-        for(auto &&oneBlob : pheromone) {
-            window.draw(oneBlob.shape);
-        }
-        for(auto &&oneFoodSpot : foodSpot) {
-            window.draw(oneFoodSpot.shape);
-        }
-        window.draw(colonyBase.shape);
-        window.draw(directionLine, 4, Lines);
-        window.draw(pheromoneLine, 2, Lines);
+        sf::VertexArray temp(sf::Triangles);
+        window.draw(surfaceMesh.createMeshOnScreen(temp));
+        window.draw(cube.createMeshOnScreen(temp));
+        window.draw(test.createMeshOnScreen(temp));
         window.display();
-        frame++;
     }
     return EXIT_SUCCESS;
 }
 
-///////////// Methods ///////////////
-
-void setup() {
-    frame = 0;
-
-    colonyBase.position = Vector2f(WINDOW_SIZE_X/2, WINDOW_SIZE_Y/2);
-    colonyBase.shape = CircleShape(20);
-    colonyBase.shape.setOrigin(20, 20);
-    colonyBase.shape.setPosition(colonyBase.position);
-    colonyBase.shape.setFillColor(Color::Red);
-    colonyBase.storedFood = 0;
-
-    for (int i = 0; i < ANT_AMOUNT; i++)
-    {
-        ant[i].position = colonyBase.position;
-        ant[i].body.setOrigin(Vector2f(antTexture.getSize()) * .5f);
-        ant[i].body.setTexture(antTexture);
-        ant[i].body.setScale(ant[i].scale, ant[i].scale);
-    }
-
-    foodSpot[0].position = Vector2f(WINDOW_SIZE_X/4, WINDOW_SIZE_Y/2);
-    foodSpot[1].position = Vector2f(WINDOW_SIZE_X/2, WINDOW_SIZE_Y/5);
-    foodSpot[2].position = Vector2f(WINDOW_SIZE_X - WINDOW_SIZE_X/4, WINDOW_SIZE_Y/3);
-    for(int i = 0; i < 3; i++) {
-        foodSpot[i].storedFood = 100;
-        foodSpot[i].shape = CircleShape(foodSpot[i].storedFood/3);
-        foodSpot[i].shape.setOrigin(foodSpot[i].storedFood/3, foodSpot[i].storedFood/3);
-        foodSpot[i].shape.setPosition(foodSpot[i].position);
-        foodSpot[i].shape.setFillColor(Color::Green);
-    }
-    
-    info.setFont(font);
-    info.setPosition(WINDOW_SIZE_X/100, WINDOW_SIZE_Y/100);
-    info.setCharacterSize(16);
-}
-
-
-void updateShape(Ant &currentAnt) {
-    currentAnt.body.setPosition(currentAnt.position);
-    currentAnt.body.setRotation(currentAnt.pointingDirection+90);
-}
-
-void startBlobThread(int threadNum) {
-    switch(threadNum) {
-        case 1:
-        {
-            for(int i = blobNum; i < blobNum + ANT_AMOUNT / 4; i++) {
-                ant[i-blobNum].dropPheromone(pheromone[i]);
-            }
-        }
-        case 2:
-        {
-            for(int i = blobNum + ANT_AMOUNT / 4; i < blobNum + ANT_AMOUNT / 2; i++) {
-                ant[i-blobNum].dropPheromone(pheromone[i]);
-            }
-        }
-        case 3:
-        {
-            for(int i = blobNum + ANT_AMOUNT / 2; i < blobNum + (ANT_AMOUNT - ANT_AMOUNT / 4); i++) {
-                ant[i-blobNum].dropPheromone(pheromone[i]);
-            }
-        }
-        case 4:
-        {
-            for(int i = blobNum + (ANT_AMOUNT - ANT_AMOUNT / 4); i < blobNum + ANT_AMOUNT; i++) {
-                ant[i-blobNum].dropPheromone(pheromone[i]);
-            }
-        }
-    }
-}
-
-void chooseAction(Ant &currentAnt, RenderWindow &window) {
-    switch(currentAnt.currentTarget) {
-        /*case Target::exploring:
-            if(rand() % 30 == 1) {
-                currentAnt.currentState = State(rand() % State::END_OF_ACTIONS);
-            }
-            currentAnt = doAction(currentAnt.currentState, currentAnt);
-            break;
-
-            /*currentAnt.pointingDirection = vectorToAngle(Vector2f(Mouse::getPosition(window)) - currentAnt.position);
-            currentAnt.moveFw();
-            break;*/
-        case Target::food:
-        {
-            float targetAngle = checkForPheromone(currentAnt);
-            currentAnt.pointingDirection += clamp(currentAnt.turningSpeed, -currentAnt.turningSpeed, targetAngle) + rand() % int(currentAnt.turningSpeed * 2) - currentAnt.turningSpeed;
-            currentAnt.moveFw();
-            break;
-        }
-        case Target::home:
-        {
-            float targetAngle = checkForPheromone(currentAnt);
-            currentAnt.pointingDirection += clamp(currentAnt.turningSpeed, -currentAnt.turningSpeed, targetAngle);
-            currentAnt.moveFw();
-            break;
-        }
-        default:
-            break;
-    }
-}
-
-void updateBlob(int i) {
-    pheromone[i].size -= .002;
-    pheromone[i].shape.setRadius(pheromone[i].size);
-}
-
-float checkForPheromone(Ant &ant) {     //it checks for the nearest pheromone in the FOV of the given ant
-    int range = 50;
-    float targetAngle = 0;
-    float blobAmountInRange = 1;
-    for(auto &&blob : pheromone) {
-        if(dist(blob.position, ant.position) < range && blob.type == ant.currentTarget && dist(blob.position, ant.position) > .5) {
-            float angleToBlob;
-            float distance = dist(blob.position, ant.position);
-            angleToBlob = angleBetweenVectors_signed(blob.position - ant.position, angleToVector(ant.pointingDirection));
-
-            if(targetAngle > -50 && targetAngle < 50) {
-                pheromoneLine[0] = Vertex(ant.position);
-                pheromoneLine[1] = Vertex(blob.position);
-                targetAngle += angleToBlob;
-                blobAmountInRange += blob.size;
-            }
-        }
-    }
-    
-    return -targetAngle;
-}
-
-void manageFood(Ant &currentAnt) {
-    if(dist(currentAnt.position, colonyBase.position) < colonyBase.shape.getRadius() && currentAnt.currentTarget == Target::home) {
-        colonyBase.storedFood += currentAnt.carringFood;
-        currentAnt.carringFood = 0;
-        currentAnt.currentTarget = Target::food;
-        currentAnt.pointingDirection -= 180;
-        return;
-    }
-
-    for(int i = 0; i < 3; i++) {
-        if(dist(foodSpot[i].position, currentAnt.position) <= foodSpot[i].shape.getRadius()) {
-            cout << "Food found!" << endl;
-            foodSpot[i].storedFood--;
-            currentAnt.carringFood++;
-            currentAnt.currentTarget = Target::home;
-            currentAnt.pointingDirection -= 180;
-            currentAnt.moveFw();
-        }
-    }
+void updateRotationTable(sf::Vector2i mouseMovement, std::vector<sf::Vector3f> &rotor) {
+    yaw = 0;
+    pitch = (float)(-mouseMovement.x)/60.f;
+    roll = (float)(mouseMovement.y)/60.f;
+    rotor = generateRotationMatrix({yaw, pitch, roll});
 }

@@ -1,17 +1,17 @@
 libraries/SFML-2.5.1/src/SFML/Network/CMakeFiles/sfml-network.dir/Win32/SocketImpl.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Network\Win32\SocketImpl.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Win32/SocketImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Network/Socket.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Network/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Network/SocketHandle.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Network\Win32\SocketImpl.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Win32/SocketImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Network/Socket.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Network/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Network/SocketHandle.hpp \
  C:/msys64/mingw64/include/basetsd.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
  C:/msys64/mingw64/include/vadefs.h \
  C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/vector \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \

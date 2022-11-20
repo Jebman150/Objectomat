@@ -1,9 +1,9 @@
 libraries/SFML-2.5.1/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\System\Win32\ThreadLocalImpl.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadLocalImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\System\Win32\ThreadLocalImpl.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadLocalImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

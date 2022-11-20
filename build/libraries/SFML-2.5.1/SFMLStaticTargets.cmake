@@ -50,7 +50,7 @@ add_library(sfml-system STATIC IMPORTED)
 
 set_target_properties(sfml-system PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>;\$<LINK_ONLY:winmm>"
 )
 
@@ -59,7 +59,7 @@ add_library(sfml-main STATIC IMPORTED)
 
 set_target_properties(sfml-main PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>"
 )
 
@@ -68,7 +68,7 @@ add_library(sfml-window STATIC IMPORTED)
 
 set_target_properties(sfml-window PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>;sfml-system;\$<LINK_ONLY:OpenGL>;\$<LINK_ONLY:winmm>;\$<LINK_ONLY:gdi32>"
 )
 
@@ -84,7 +84,7 @@ add_library(sfml-network STATIC IMPORTED)
 
 set_target_properties(sfml-network PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>;sfml-system;\$<LINK_ONLY:ws2_32>"
 )
 
@@ -93,7 +93,7 @@ add_library(sfml-graphics STATIC IMPORTED)
 
 set_target_properties(sfml-graphics PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>;sfml-window;\$<LINK_ONLY:OpenGL>;\$<LINK_ONLY:Freetype>"
 )
 
@@ -101,16 +101,16 @@ set_target_properties(sfml-graphics PROPERTIES
 add_library(Freetype INTERFACE IMPORTED)
 
 set_target_properties(Freetype PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers/freetype2"
-  INTERFACE_LINK_LIBRARIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libfreetype.a"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers/freetype2"
+  INTERFACE_LINK_LIBRARIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libfreetype.a"
 )
 
 # Create imported target OpenAL
 add_library(OpenAL INTERFACE IMPORTED)
 
 set_target_properties(OpenAL PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers/AL"
-  INTERFACE_LINK_LIBRARIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libopenal32.a"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers/AL"
+  INTERFACE_LINK_LIBRARIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libopenal32.a"
 )
 
 # Create imported target Vorbis
@@ -118,8 +118,8 @@ add_library(Vorbis INTERFACE IMPORTED)
 
 set_target_properties(Vorbis PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "OV_EXCLUDE_STATIC_CALLBACKS"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers;D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisenc.a;D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisfile.a;D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbis.a;D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libogg.a"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers;D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers"
+  INTERFACE_LINK_LIBRARIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisenc.a;D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisfile.a;D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbis.a;D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libogg.a"
 )
 
 # Create imported target FLAC
@@ -127,8 +127,8 @@ add_library(FLAC INTERFACE IMPORTED)
 
 set_target_properties(FLAC PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "FLAC__NO_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/headers"
-  INTERFACE_LINK_LIBRARIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libFLAC.a"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/headers"
+  INTERFACE_LINK_LIBRARIES "D:/qwer/objectomat/libraries/SFML-2.5.1/extlibs/libs-mingw/x64/libFLAC.a"
 )
 
 # Create imported target sfml-audio
@@ -136,7 +136,7 @@ add_library(sfml-audio STATIC IMPORTED)
 
 set_target_properties(sfml-audio PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
-  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/antSimulation/libraries/SFML-2.5.1/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/qwer/objectomat/libraries/SFML-2.5.1/include"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:-static-libgcc>;\$<LINK_ONLY:-static-libstdc++>;\$<LINK_ONLY:OpenAL>;sfml-system;\$<LINK_ONLY:Vorbis>;\$<LINK_ONLY:FLAC>"
 )
 
@@ -144,42 +144,42 @@ set_target_properties(sfml-audio PROPERTIES
 set_property(TARGET sfml-system APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-system PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-system.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-system.a"
   )
 
 # Import target "sfml-main" for configuration ""
 set_property(TARGET sfml-main APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-main PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-main.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-main.a"
   )
 
 # Import target "sfml-window" for configuration ""
 set_property(TARGET sfml-window APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-window PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-window.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-window.a"
   )
 
 # Import target "sfml-network" for configuration ""
 set_property(TARGET sfml-network APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-network PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-network.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-network.a"
   )
 
 # Import target "sfml-graphics" for configuration ""
 set_property(TARGET sfml-graphics APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-graphics PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-graphics.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-graphics.a"
   )
 
 # Import target "sfml-audio" for configuration ""
 set_property(TARGET sfml-audio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(sfml-audio PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "CXX"
-  IMPORTED_LOCATION_NOCONFIG "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-audio.a"
+  IMPORTED_LOCATION_NOCONFIG "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-audio.a"
   )
 
 # This file does not depend on other imported targets which have

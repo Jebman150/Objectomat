@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION "3.20.0")
-project(antSim)
+project(objectomat)
 add_executable(${PROJECT_NAME} 
                 main.cpp
-                actions.cpp
-                maths.cpp
+                mathFunc.cpp
+                fileReader.cpp
+                bodys.cpp
+                mesh.cpp
+                meshVertex.cpp
                 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
@@ -13,5 +16,4 @@ target_link_libraries(${PROJECT_NAME}
     sfml-window
     sfml-graphics
     sfml-system
-    sfml-audio
     )

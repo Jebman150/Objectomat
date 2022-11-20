@@ -1,11 +1,11 @@
 libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Window\Clipboard.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/String.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Utf.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Window\Clipboard.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/String.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Utf.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/algorithm \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -146,9 +146,9 @@ libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.ob
  C:/msys64/mingw64/include/c++/12.1.0/bits/codecvt.h \
  C:/msys64/mingw64/include/c++/12.1.0/bits/locale_facets_nonio.tcc \
  C:/msys64/mingw64/include/c++/12.1.0/bits/locale_conv.h \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Utf.inl \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Utf.inl \
  C:/msys64/mingw64/include/c++/12.1.0/iterator \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stream_iterator.h \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/String.inl \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/ClipboardImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/ClipboardImpl.hpp
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/String.inl \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/ClipboardImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/ClipboardImpl.hpp

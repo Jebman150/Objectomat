@@ -1,9 +1,9 @@
 libraries/SFML-2.5.1/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Window\Win32\VideoModeImpl.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/VideoModeImpl.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Window\Win32\VideoModeImpl.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/VideoModeImpl.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Window/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/vector \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \

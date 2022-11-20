@@ -1,10 +1,10 @@
 libraries/SFML-2.5.1/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Graphics\TextureSaver.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/TextureSaver.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLCheck.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLExtensions.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLLoader.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Graphics\TextureSaver.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/TextureSaver.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLCheck.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLExtensions.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLLoader.hpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

@@ -1,8 +1,8 @@
 libraries/SFML-2.5.1/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\Graphics\Color.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\Graphics\Color.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/algorithm \
  C:/msys64/mingw64/include/c++/12.1.0/bits/stl_algobase.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \

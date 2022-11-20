@@ -1,8 +1,8 @@
-# Install script for directory: D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Main
+# Install script for directory: D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/antSimulation")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/objectomat")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/lib/libsfml-main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/qwer/objectomat/build/libraries/SFML-2.5.1/lib/libsfml-main.a")
 endif()
 

@@ -1,9 +1,9 @@
 libraries/SFML-2.5.1/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj: \
- D:\qwer\antSimulation\libraries\SFML-2.5.1\src\SFML\System\MemoryInputStream.cpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/Config.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/InputStream.hpp \
- D:/qwer/antSimulation/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
+ D:\qwer\objectomat\libraries\SFML-2.5.1\src\SFML\System\MemoryInputStream.cpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/Config.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/InputStream.hpp \
+ D:/qwer/objectomat/libraries/SFML-2.5.1/include/SFML/System/Export.hpp \
  C:/msys64/mingw64/include/c++/12.1.0/cstdlib \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32/bits/os_defines.h \

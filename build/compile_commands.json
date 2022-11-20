@@ -1,527 +1,542 @@
 [
 {
-  "directory": "D:/qwer/antSimulation/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/antSim.dir/includes_CXX.rsp  -o CMakeFiles\\antSim.dir\\main.cpp.obj -c D:\\qwer\\antSimulation\\src\\main.cpp",
-  "file": "D:/qwer/antSimulation/src/main.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\main.cpp.obj -c D:\\qwer\\objectomat\\src\\main.cpp",
+  "file": "D:/qwer/objectomat/src/main.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/antSim.dir/includes_CXX.rsp  -o CMakeFiles\\antSim.dir\\actions.cpp.obj -c D:\\qwer\\antSimulation\\src\\actions.cpp",
-  "file": "D:/qwer/antSimulation/src/actions.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\mathFunc.cpp.obj -c D:\\qwer\\objectomat\\src\\mathFunc.cpp",
+  "file": "D:/qwer/objectomat/src/mathFunc.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/src",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/antSim.dir/includes_CXX.rsp  -o CMakeFiles\\antSim.dir\\maths.cpp.obj -c D:\\qwer\\antSimulation\\src\\maths.cpp",
-  "file": "D:/qwer/antSimulation/src/maths.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\fileReader.cpp.obj -c D:\\qwer\\objectomat\\src\\fileReader.cpp",
+  "file": "D:/qwer/objectomat/src/fileReader.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Clock.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Clock.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Clock.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\bodys.cpp.obj -c D:\\qwer\\objectomat\\src\\bodys.cpp",
+  "file": "D:/qwer/objectomat/src/bodys.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Err.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Err.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Err.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\mesh.cpp.obj -c D:\\qwer\\objectomat\\src\\mesh.cpp",
+  "file": "D:/qwer/objectomat/src/mesh.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Lock.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Lock.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Lock.cpp"
+  "directory": "D:/qwer/objectomat/build/src",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/objectomat.dir/includes_CXX.rsp  -o CMakeFiles\\objectomat.dir\\meshVertex.cpp.obj -c D:\\qwer\\objectomat\\src\\meshVertex.cpp",
+  "file": "D:/qwer/objectomat/src/meshVertex.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Mutex.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Mutex.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Mutex.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Clock.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Clock.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Clock.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Sleep.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Sleep.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Sleep.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Err.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Err.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Err.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\String.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\String.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/String.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Lock.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Lock.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Lock.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Thread.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Thread.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Thread.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Mutex.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Mutex.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Mutex.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\ThreadLocal.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\ThreadLocal.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/ThreadLocal.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Sleep.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Sleep.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Sleep.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Time.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Time.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Time.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\String.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\String.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/String.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\FileInputStream.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\FileInputStream.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/FileInputStream.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Thread.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Thread.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Thread.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\MemoryInputStream.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\MemoryInputStream.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/MemoryInputStream.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\ThreadLocal.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\ThreadLocal.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/ThreadLocal.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ClockImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ClockImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/ClockImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Time.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Time.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Time.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\MutexImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\MutexImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/MutexImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\FileInputStream.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\FileInputStream.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/FileInputStream.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\SleepImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\SleepImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/SleepImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\MemoryInputStream.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\MemoryInputStream.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/MemoryInputStream.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ThreadImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ThreadImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ClockImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ClockImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/ClockImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/System",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ThreadLocalImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ThreadLocalImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadLocalImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\MutexImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\MutexImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/MutexImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Main",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-main.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-main.dir\\MainWin32.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Main\\MainWin32.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Main/MainWin32.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\SleepImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\SleepImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/SleepImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Clipboard.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Clipboard.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Clipboard.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ThreadImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ThreadImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Context.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Context.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Context.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/System",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-system.dir\\Win32\\ThreadLocalImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\System\\Win32\\ThreadLocalImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/System/Win32/ThreadLocalImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Cursor.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Cursor.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Cursor.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Main",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-main.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-main.dir\\MainWin32.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Main\\MainWin32.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Main/MainWin32.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\GlContext.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\GlContext.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/GlContext.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Clipboard.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Clipboard.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Clipboard.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\GlResource.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\GlResource.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/GlResource.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Context.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Context.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Context.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Joystick.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Joystick.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Joystick.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Cursor.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Cursor.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Cursor.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\JoystickManager.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\JoystickManager.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/JoystickManager.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\GlContext.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\GlContext.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/GlContext.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Keyboard.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Keyboard.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Keyboard.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\GlResource.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\GlResource.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/GlResource.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Mouse.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Mouse.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Mouse.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Joystick.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Joystick.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Joystick.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Touch.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Touch.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Touch.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\JoystickManager.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\JoystickManager.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/JoystickManager.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Sensor.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Sensor.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Sensor.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Keyboard.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Keyboard.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Keyboard.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\SensorManager.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\SensorManager.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/SensorManager.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Mouse.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Mouse.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Mouse.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\VideoMode.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\VideoMode.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/VideoMode.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Touch.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Touch.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Touch.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Window.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Window.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Window.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Sensor.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Sensor.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Sensor.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\WindowImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\WindowImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/WindowImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\SensorManager.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\SensorManager.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/SensorManager.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\CursorImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\CursorImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\VideoMode.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\VideoMode.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/VideoMode.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\ClipboardImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\ClipboardImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/ClipboardImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Window.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Window.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Window.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WglContext.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WglContext.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/WglContext.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\WindowImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\WindowImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/WindowImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WglExtensions.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WglExtensions.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/WglExtensions.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\CursorImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\CursorImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/CursorImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\InputImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\InputImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/InputImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\ClipboardImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\ClipboardImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/ClipboardImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\JoystickImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\JoystickImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/JoystickImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WglContext.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WglContext.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/WglContext.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\SensorImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\SensorImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/SensorImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WglExtensions.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WglExtensions.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/WglExtensions.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\VideoModeImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\VideoModeImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/VideoModeImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\InputImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\InputImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/InputImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Window",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WindowImplWin32.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WindowImplWin32.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Window/Win32/WindowImplWin32.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\JoystickImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\JoystickImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/JoystickImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Ftp.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Ftp.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Ftp.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\SensorImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\SensorImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/SensorImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Http.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Http.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Http.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\VideoModeImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\VideoModeImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/VideoModeImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\IpAddress.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\IpAddress.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/IpAddress.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Window",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DUNICODE -D_UNICODE @CMakeFiles/sfml-window.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-window.dir\\Win32\\WindowImplWin32.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Window\\Win32\\WindowImplWin32.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Window/Win32/WindowImplWin32.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Packet.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Packet.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Packet.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Ftp.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Ftp.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Ftp.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Socket.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Socket.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Socket.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Http.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Http.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Http.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\SocketSelector.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\SocketSelector.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/SocketSelector.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\IpAddress.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\IpAddress.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/IpAddress.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\TcpListener.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\TcpListener.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/TcpListener.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Packet.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Packet.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Packet.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\TcpSocket.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\TcpSocket.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/TcpSocket.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Socket.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Socket.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Socket.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\UdpSocket.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\UdpSocket.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/UdpSocket.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\SocketSelector.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\SocketSelector.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/SocketSelector.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Network",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Win32\\SocketImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Win32\\SocketImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Network/Win32/SocketImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\TcpListener.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\TcpListener.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/TcpListener.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\BlendMode.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\BlendMode.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/BlendMode.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\TcpSocket.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\TcpSocket.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/TcpSocket.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Color.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Color.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Color.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\UdpSocket.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\UdpSocket.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/UdpSocket.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Font.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Font.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Font.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Network",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-network.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-network.dir\\Win32\\SocketImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Network\\Win32\\SocketImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Network/Win32/SocketImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Glsl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Glsl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Glsl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\BlendMode.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\BlendMode.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/BlendMode.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLCheck.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLCheck.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLCheck.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Color.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Color.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Color.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLExtensions.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLExtensions.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLExtensions.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Font.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Font.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Font.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Image.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Image.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Image.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Glsl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Glsl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Glsl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -fno-strict-aliasing -o CMakeFiles\\sfml-graphics.dir\\ImageLoader.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\ImageLoader.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/ImageLoader.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLCheck.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLCheck.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLCheck.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderStates.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderStates.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderStates.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLExtensions.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLExtensions.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLExtensions.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTexture.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTexture.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTexture.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Image.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Image.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Image.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTarget.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTarget.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTarget.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -fno-strict-aliasing -o CMakeFiles\\sfml-graphics.dir\\ImageLoader.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\ImageLoader.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/ImageLoader.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderWindow.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderWindow.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderWindow.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderStates.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderStates.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderStates.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Shader.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Shader.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Shader.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTexture.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTexture.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTexture.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Texture.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Texture.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Texture.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTarget.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTarget.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTarget.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\TextureSaver.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\TextureSaver.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/TextureSaver.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderWindow.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderWindow.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderWindow.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Transform.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Transform.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Transform.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Shader.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Shader.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Shader.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Transformable.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Transformable.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Transformable.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Texture.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Texture.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Texture.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\View.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\View.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/View.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\TextureSaver.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\TextureSaver.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/TextureSaver.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Vertex.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Vertex.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Vertex.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Transform.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Transform.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Transform.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLLoader.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLLoader.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/GLLoader.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Transformable.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Transformable.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Transformable.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Shape.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Shape.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Shape.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\View.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\View.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/View.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\CircleShape.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\CircleShape.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/CircleShape.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Vertex.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Vertex.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Vertex.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RectangleShape.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RectangleShape.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RectangleShape.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\GLLoader.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\GLLoader.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/GLLoader.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\ConvexShape.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\ConvexShape.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/ConvexShape.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Shape.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Shape.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Shape.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Sprite.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Sprite.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Sprite.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\CircleShape.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\CircleShape.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/CircleShape.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Text.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Text.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/Text.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RectangleShape.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RectangleShape.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RectangleShape.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\VertexArray.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\VertexArray.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/VertexArray.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\ConvexShape.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\ConvexShape.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/ConvexShape.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\VertexBuffer.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\VertexBuffer.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/VertexBuffer.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Sprite.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Sprite.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Sprite.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImpl.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImpl.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImpl.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\Text.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\Text.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/Text.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImplFBO.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImplFBO.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImplFBO.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\VertexArray.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\VertexArray.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/VertexArray.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Graphics",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImplDefault.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImplDefault.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImplDefault.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\VertexBuffer.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\VertexBuffer.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/VertexBuffer.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\ALCheck.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\ALCheck.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/ALCheck.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImpl.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImpl.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImpl.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\AlResource.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\AlResource.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/AlResource.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImplFBO.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImplFBO.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImplFBO.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\AudioDevice.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\AudioDevice.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/AudioDevice.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Graphics",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DSFML_STATIC -DSTBI_FAILURE_USERMSG @CMakeFiles/sfml-graphics.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-graphics.dir\\RenderTextureImplDefault.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Graphics\\RenderTextureImplDefault.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Graphics/RenderTextureImplDefault.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Listener.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Listener.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/Listener.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\ALCheck.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\ALCheck.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/ALCheck.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Music.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Music.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/Music.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\AlResource.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\AlResource.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/AlResource.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Sound.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Sound.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/Sound.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\AudioDevice.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\AudioDevice.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/AudioDevice.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundBuffer.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundBuffer.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundBuffer.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Listener.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Listener.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/Listener.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundBufferRecorder.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundBufferRecorder.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundBufferRecorder.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Music.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Music.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/Music.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\InputSoundFile.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\InputSoundFile.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/InputSoundFile.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\Sound.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\Sound.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/Sound.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\OutputSoundFile.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\OutputSoundFile.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/OutputSoundFile.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundBuffer.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundBuffer.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundBuffer.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundRecorder.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundRecorder.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundRecorder.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundBufferRecorder.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundBufferRecorder.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundBufferRecorder.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundSource.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundSource.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundSource.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\InputSoundFile.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\InputSoundFile.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/InputSoundFile.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundStream.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundStream.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundStream.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\OutputSoundFile.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\OutputSoundFile.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/OutputSoundFile.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileFactory.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileFactory.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileFactory.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundRecorder.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundRecorder.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundRecorder.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderFlac.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderFlac.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderFlac.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundSource.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundSource.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundSource.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderOgg.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderOgg.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderOgg.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundStream.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundStream.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundStream.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderWav.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderWav.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderWav.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileFactory.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileFactory.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileFactory.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterFlac.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterFlac.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterFlac.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderFlac.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderFlac.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderFlac.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterOgg.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterOgg.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterOgg.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderOgg.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderOgg.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderOgg.cpp"
 },
 {
-  "directory": "D:/qwer/antSimulation/build/libraries/SFML-2.5.1/src/SFML/Audio",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterWav.cpp.obj -c D:\\qwer\\antSimulation\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterWav.cpp",
-  "file": "D:/qwer/antSimulation/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterWav.cpp"
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileReaderWav.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileReaderWav.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileReaderWav.cpp"
+},
+{
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterFlac.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterFlac.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterFlac.cpp"
+},
+{
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterOgg.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterOgg.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterOgg.cpp"
+},
+{
+  "directory": "D:/qwer/objectomat/build/libraries/SFML-2.5.1/src/SFML/Audio",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC @CMakeFiles/sfml-audio.dir/includes_CXX.rsp  -o CMakeFiles\\sfml-audio.dir\\SoundFileWriterWav.cpp.obj -c D:\\qwer\\objectomat\\libraries\\SFML-2.5.1\\src\\SFML\\Audio\\SoundFileWriterWav.cpp",
+  "file": "D:/qwer/objectomat/libraries/SFML-2.5.1/src/SFML/Audio/SoundFileWriterWav.cpp"
 }
 ]
