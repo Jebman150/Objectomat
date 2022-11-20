@@ -17,3 +17,15 @@ void MeshVertex::addTriangle(Triangle &adjacent) {
     adjacentTriangles.resize(adjacentTriangles.size()+1);
     adjacentTriangles[adjacentTriangles.size()-1] = &adjacent;
 }
+
+sf::Vector3f MeshVertex::calcNormal() {
+    sf::Vector3f sum;
+    for(Triangle *n : adjacentTriangles) {
+        sum += n->calcNormal();
+    }
+    sum.x /= adjacentTriangles.size();
+    sum.y /= adjacentTriangles.size();
+    sum.z /= adjacentTriangles.size();
+    sum = normalize(sum);
+    return sum;
+}

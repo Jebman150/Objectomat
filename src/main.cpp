@@ -5,7 +5,6 @@ using namespace std;
 void updateRotationTable(sf::Vector2i mouseMovement, std::vector<sf::Vector3f> &rotor);
 
 sf::RenderWindow window(sf::VideoMode(WINDOW_SIZE, WINDOW_SIZE), "Objectomat");
-sf::Font font;
 
 Mesh surfaceMesh;
 Cube cube;
@@ -64,11 +63,6 @@ int main() {
     //    cout << "Failed reading from shapeFile!" << endl;
     //    return EXIT_SUCCESS;
     //}
-    
-    if(!font.loadFromFile("Cabin-Regular.ttf")) {
-        cout << "Exiting..." << endl;
-        return EXIT_FAILURE;
-    }
 
     window.setFramerateLimit(60);
 

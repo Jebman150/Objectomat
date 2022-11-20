@@ -11,4 +11,5 @@ class MeshVertex {
     MeshVertex(std::vector<Triangle> &adjacents, int numAdj, sf::Vector3f vertexInit);
 
     void addTriangle(Triangle &adjacent);
+    sf::Vector3f calcNormal();
 };
